@@ -7,6 +7,7 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -16,6 +17,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "VINAZEN",
   description: "Sản xuất máy nông nghiệp và lâm nghiệp",
+  icons: {
+    icon: '/images/vn.png', // This is the correct way to set favicon
+  },
 };
 
 export default function RootLayout({
