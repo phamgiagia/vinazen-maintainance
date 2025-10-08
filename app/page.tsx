@@ -1,5 +1,7 @@
+"use client"; // Marking this file as a Client Component
+
 import { useEffect } from "react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation"; // Import from next/navigation for Client-side routing
 
 export default function Page() {
   const router = useRouter();
